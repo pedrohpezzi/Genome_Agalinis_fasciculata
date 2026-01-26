@@ -1,0 +1,12 @@
+module load python
+conda activate seqkit
+
+#add a prefix
+cat Agalinis-families.fa | seqkit fx2tab | awk '{ print "Agalinis_"$0 }' | seqkit tab2fx > Agalinis-families.prefix.fa
+
+#separate files into known and unknown
+cat Agalinis-families.prefix.fa | seqkit fx2tab | grep -v "Unknown" | seqkit tab2fx > Agalinis-families.prefix.fa.known
+cat Agalinis-families.prefix.fa | seqkit fx2tab | grep "Unknown" | seqkit tab2fx > Agalinis-families.prefix.fa.unknown
+
+#known set is ready to go
+awk '/^>/{print $1; next}{print}' Agalinis-families.prefix.fa.known > Agalinis-families.prefix.fa.known.FINAL
