@@ -3,10 +3,10 @@
 #SBATCH --time=72:00:00
 #SBATCH --partition=comp72
 #SBATCH --ntasks=32       #number of cpus to use
-#SBATCH --job-name=bwa_yahs_before_decontamination
+#SBATCH --job-name=bwa_yahs_after_decontamination
 #SBATCH --mail-user=pedrohenriquepezzi@gmail.com
 #SBATCH --mail-type=ALL
-#SBATCH --output=/scrfs/storage/ppezzi/GC3F_Afasciculata/Assembly_Afasciculata/yahs/before_decontamination/bwa_yahs_before_decontamination_agalinis.%j.out
+#SBATCH --output=/scrfs/storage/ppezzi/GC3F_Afasciculata/Assembly_Afasciculata/yahs/after_decontamination/bwa_yahs_after_decontamination_agalinis.%j.out
 
 #Display the job context
 echo Job: $SLURM_JOB_NAME with ID $SLURM_JOB_ID
