@@ -1,6 +1,5 @@
 # *Agalinis fasciculata* Reference Genome
 This repository contains the code used to assemble and annotate the genome of the beach false foxglove.
-Raw sequencing reads and the genome assembly have been deposited in GenBank under the BioProject accession number [**PRJNA1345713**](ncbi.com).
-Intermediate and additional files are available on [Zenodo](https://doi.org/10.5281/zenodo.18393392).
+Raw sequencing data for this study are available in GenBank under BioProject accession [**PRJNA1345713**](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1345713/). The genomic resources generated include a primary genome assembly [**JBYJVT000000000**](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1454504), an alternate genome assembly [**JBYJVU000000000**](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1454503), a chloroplast genome [**PZ319439**](https://www.ncbi.nlm.nih.gov/nuccore/PZ319439.1/), and a mitochondrial genome [**PZ330306**](https://www.ncbi.nlm.nih.gov/nuccore/PZ330306). Intermediate and additional files are available on [Zenodo](https://doi.org/10.5281/zenodo.18393392).
 
-Pezzi PH, Latvis M. Chromosome-level reference genome of the beach false foxglove, *Agalinis fasciculata* (Orobanchaceae). 2026. bioRxiv. https://doi.org/xxxxxxxxxxxx
+Pezzi, P. H. & Latvis, M. (2026). Chromosome-level reference genome of the beach false foxglove, *Agalinis fasciculata* (Orobanchaceae). Genome Biology and Evolution, evag116. doi: 10.1093/gbe/evag116
